@@ -17,6 +17,7 @@ public class Uppgift_1_b {
 		name = input.nextLine();
 		System.out.print("Timlön: ");
 		hourSallary = input.nextLine();
+		// Swedish payroll, international punctuation: use 150.50, not 150,50.
 		Double foo = Double.parseDouble(hourSallary);
 		
 		System.out.print("Antal timmar jobbat: ");
